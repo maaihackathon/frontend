@@ -1,0 +1,258 @@
+
+.about-header{
+    color: black;
+    margin-bottom: 5%;
+}
+
+.about-text{
+    margin-bottom: 15%;
+}
+
+.header-paper{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    /* background: linear-gradient(-270deg, rgb(26, 126, 219), rgba(88, 247, 220, 0.7), rgb(26, 126, 219)); */
+    background-color: #151515;
+}
+
+.header-titles-container{
+    margin-left: 35%;
+}
+
+.header-menuButton{
+    margin-left: -12;
+    margin-right: 20;
+}
+
+.home-top-paper{
+    flex: 1;
+    /* height: 550px; */
+    /* background: linear-gradient(-270deg, rgb(21, 21, 22), rgba(81, 230, 205, 0.7), rgb(26, 126, 219)); */
+    min-height: 550px;
+    background-color: rgb(21, 21, 22)
+}
+
+.home-header{
+    color: aliceblue
+}
+
+.home-paper-search{
+    padding: 2px 4px;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.home-input{
+    margin-left: 8px;
+    width: 500px;
+    flex: 1;
+  }
+
+.home-iconButton{
+    margin-left: 10%
+}
+
+.home-divider{
+    width: 1px;
+    height: 28px;
+    margin: 4px;
+}
+
+.home-input-paper{
+    height: 33px;
+    width: 90px;
+    background: linear-gradient(-270deg, rgb(81, 230, 205, 0.7), rgb(26, 126, 219));
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.home-list{
+    width: 600px;
+    max-width: 600px;
+    max-height: 400px;
+    overflow: auto;
+    background-color: white
+}
+
+.home-middle-paper{
+    height: 850px;
+    /* background: linear-gradient(-270deg, rgba(231, 229, 212, 0.7), rgba(231, 229, 212, 0.7)); */
+    background-color: #1b1b1b;
+}
+
+.home-paper-card{
+    height: 300px;
+    width: 400px;
+    background: bisque;
+}
+
+.home-middle-subheader{
+    color: silver;
+}
+
+.footer-container{
+    max-height: 300px;
+    margin-bottom: 0px;
+    /* background: linear-gradient(-270deg, rgb(7, 8, 10),  rgb(7, 90, 168), rgb(7, 90, 168)); */
+    background-color: #151515;
+}
+
+.input-top-paper{
+    height: 500px;
+    background-color: #1b1b1b;
+
+}
+
+.input-middle-paper{
+    height: 350px;
+    max-height: 450px;
+    /* background: linear-gradient(-270deg, rgb(26, 126, 219), rgba(81, 230, 205, 0.7), rgb(26, 126, 219)); */
+    background: linear-gradient(-270deg, rgba(231, 229, 212, 0.7), rgba(231, 229, 212, 0.7));
+}
+
+.input-header{
+    color: rgb(236, 234, 234);
+}
+
+.input-header-dropbox{
+    color: rgb(7, 6, 6);
+}
+
+.middle-box{
+    vertical-align: top;
+    margin:0 43.5% ;
+    margin-top: 1%;
+    color: white;
+}
+
+.drop-logo{
+    margin-left: 65px;
+    height: 10vmin;
+}
+
+.input-paper{
+    margin-top: 1%;
+    height: 150px;
+    max-width: 1200px;
+    width: 1200px;
+    /* background: linear-gradient(-270deg, rgba(231, 229, 212, 0.7), rgba(231, 229, 212, 0.7)); */
+
+}
+
+.input-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-text-field{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.input-text-field-long{
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.data-container{
+    height: 600px;
+    margin-top: 1px;
+}
+
+.footer-link{
+    color: silver
+}
+
+.footer-newleter{
+    width: 340px;
+    height: 40px;
+    /* margin-left: 8px; */
+    flex: 1;
+}
+
+.footer-input{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.footer-button{
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(-270deg, rgba(12, 19, 18, 0.7), rgb(117, 119, 121));
+}
+
+.copy-footer{
+    color: white;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.logo-header{
+    width: 140px;
+    height: 70px;
+}
+
+.landing-button {
+    /* flex: 1; */
+    border-radius: 0;
+    margin-bottom: 0px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 200px;
+    text-transform: uppercase;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #1b1b1b;
+    color: aliceblue
+  }
+
+.small-text-dropbox{
+    color: #1b1b1b;
+}
+
+.home-card {
+  font-family: Montserrat;
+  width: 92%;
+  height: 200px;
+  margin-bottom: 40px;
+
+  display: flex;
+
+}
+
+.home-card-img {
+  height: 100%;
+  width: 200px;
+  margin: 0;
+  object-fit: cover;
+  background-color: #1b1b1b;
+}
+
+.home-h3 {
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.home-card-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.poor-divider{
+    margin-top: 3%;
+    max-width: 1900px;
+    min-width: 50px;
+    width: 85%;
+    height: 1px;
+}
