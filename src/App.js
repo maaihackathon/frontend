@@ -4,15 +4,15 @@ import Header from './common/Header';
 import Footer from './common/Footer';
 
 class App extends Component {
-  render() {
-    return (
-        <div>
-          <Header />
-          <RouteHandler />
-          <Footer />
-        </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <Header />
+                <RouteHandler />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;

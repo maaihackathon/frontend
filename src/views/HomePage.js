@@ -10,6 +10,10 @@ import ImageIcon from '@material-ui/icons/Image';
 import MaskedInput from 'react-text-mask';
 import axios from 'axios';
 
+// Test Components
+import Graph from '../components/Graph';
+import NpmDepGraph from '../components/NpmDepGraph';
+
 // input form
 function TextMaskCustom(props) {
     const { inputRef, ...other } = props;
@@ -150,6 +154,8 @@ export default class HomePage extends React.Component{
                 } 
                 </Grid>
             </div>
+            {/* <Graph/> */}
+            <NpmDepGraph/>
             <div className="home-middle-paper">
                 <Grid container direction="column" alignItems="center">
                     <Typography variant='h3' style={{marginTop: '10%', color:'white'}}>How It Works</Typography>
