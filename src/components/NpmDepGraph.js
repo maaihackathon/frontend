@@ -12166,15 +12166,22 @@ export default class NpmDepGraph extends PureComponent {
             ]
         };
     };
-    
+    onChartClick = (event) => {
+        console.log(event);
+    }
     render() {
+        let onEvents = {
+            'click': this.onChartClick,
+            // 'legendselectchanged': this.onChartLegendselectchanged
+        }
         return (
             <div className='examples'>
                 <div className='parent'>
                     <ReactGraphEcharts
                         option={this.getOption()}
                         style={{ height: '700px', width: '100%' }}
-                        className='react_for_echarts' />
+                        className='react_for_echarts'
+                        onEvents={onEvents} />
                 </div>
             </div>
         );
